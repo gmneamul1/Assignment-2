@@ -56,6 +56,7 @@
     padding: 10px 20px;
     border-radius: 5px;
     -webkit-transition: padding 2s;
+    color: white;
 }
 .top-page-link:hover:hover {
         padding: 10px;
@@ -160,8 +161,6 @@ footer{
 .about-us {
     display: flex;
     justify-content: space-around;
-   
-
 }
 .about-us a{
     color: white;
@@ -171,3 +170,97 @@ footer{
 .hr-line{
    color: gray;
 }
+/* Mobile responsive  */
+@media only screen and (max-width: 600px) {
+  
+    .top-page{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        border-radius: 10px;
+        
+        
+    }
+    .top-page-text h1{
+        font-size: 30px;
+    }
+    .top-page-text{
+        width: 100%;
+        color: aliceblue;
+        padding: 10px 10px 40px 10px;
+        text-align: center;
+        
+    }
+    .top-page img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin-left: 50px;
+       
+    }
+    .top-page-img{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    /* midel page */
+    moddle-full{
+        display: flex;
+        justify-content: start;
+    margin-top: 40px;
+    margin-bottom: 50px;
+     }
+     .middle-page{
+        width: 200px;
+        height: 220px;
+        border-radius: 5px;
+       align-items: center;
+        justify-content: center;
+        padding: 0px;
+        background-color: rgb(255, 255, 255);
+        
+     }
+     .middle-page a{
+        text-decoration: none;
+      border-radius: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+        background-color: rgb(255, 255, 255);
+        margin: 010px;
+        border: 1px solid gray;
+       
+     }
+   
+.middle-pages{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+.section-page{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.for-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+  }
