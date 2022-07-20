@@ -115,7 +115,8 @@
 }
 .football img{
  width: 100%;
- height: 45%;
+ height: 50%;
+ border-radius: 10px;
 }
 .transfer a{
     border: 1px solid black;
@@ -337,6 +338,10 @@ width: 100%;
     }
     .top-page-text h1{
         font-size: 30px;
+    }
+    .top-page-text p{
+        text-overflow: ellipsis;
+        
     }
     .top-page-text{
         width: 100%;
@@ -723,6 +728,13 @@ footer{
     margin: -80px;
     margin-top: 50px;
 }
+
+.football img{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+   }
+
  /* this tablet version for bonus mark */
  /* this tablet version for bonus mark */
  /* this tablet version for bonus mark */
