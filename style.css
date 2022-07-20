@@ -150,6 +150,18 @@ footer{
     padding-bottom: 60px;
 
 }
+.view{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    padding: 15px 26px;
+    visibility: hidden;
+}
+.view a{
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
 .footer{
     width: 80%;
    
@@ -606,19 +618,43 @@ footer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.view{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    padding: 15px 26px;
+    visibility: visible;
 }
+.view a{
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+}
+
 footer{
     display: flex;
     /* flex-direction: column; */
     justify-content: center;
     /* align-items: center; */
-    background-color: rgb(7, 7, 7);padding-top: 60px;
+    background-color: black;
+    padding-top: 60px;
     padding-bottom: 60px;
 
 }
 .footer{
     width: 80%;
    
+}
+.social{
+    background-color: black;
+    text-align: center;
+    gap: 25px;
+    padding: 25px 35px;
+    font-size: 35px;
+}
+.social a{
+    padding: 10px 25px;
 }
 
 .goal{
