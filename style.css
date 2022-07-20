@@ -107,11 +107,11 @@
 }
 .football{
     /* background-color: rgb(107, 23, 23); */
-    margin: 15px;
+    margin: 10px;
     border-radius: 10px;
     border: 0.1px solid gray;
-    height: 320px;
-    width: 100%;
+    height: 340px;
+    width: 80%;
 
 }
 .football img{
