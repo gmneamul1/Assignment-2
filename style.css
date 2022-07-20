@@ -450,7 +450,6 @@ width: 100%;
    
     padding: 10px;
    
-
 }
 .top-mother1{
     display: flex;
@@ -567,8 +566,6 @@ footer{
   /* this is for tablet media scren */
   /* this is for tablet media scren */
   /* this is for tablet media scren */
-
-
   @media only screen and (min-width:600px) and (max-width:1080px){
 
     
@@ -584,7 +581,6 @@ footer{
         justify-content: center;
         width: 80%;
         border-radius: 10px;
-        
         
     }
     .top-page-text{
@@ -813,4 +809,3 @@ footer{
     justify-content: center;
     
 }
-
