@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 .top-page{
     background-color: rgb(0, 0, 0);
@@ -72,7 +72,7 @@
         display: flex;
         justify-content: start;
     margin-top: 40px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
      }
      .middle-page{
         width: 200px;
@@ -102,7 +102,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
 }
 .football{
     /* background-color: rgb(107, 23, 23); */
@@ -152,7 +152,7 @@ footer{
 }
 .view{
     text-align: center;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     margin-top: 15px;
     padding: 15px 26px;
     visibility: hidden;
@@ -218,7 +218,7 @@ footer{
 }
 .section-item{
     margin: auto;
-    width: 60%;
+    width: 90%;
    
     padding: 10px;
    
@@ -258,7 +258,7 @@ footer{
 
 /* this is project for bnouse mark? */
 .match-grid2{
-    text-align: center;
+    text-align: justify;
     border: 2px dotted;
     border-radius: 10px;
     padding: 10px;
@@ -271,7 +271,24 @@ footer{
 }
 .grid-line{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-columns: 1fr;
+   
+}
+.moddle-full4{
+width: 100%;
+}
+.bonus-manu{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.bonus-manu a{
+    border: 1px double gray;
+    padding: 10px 35px;
+    margin: 20px 0 20px 0;
+    text-decoration: none;
+    border-radius: 10px;
 }
 
 /* Mobile responsive  */
@@ -324,7 +341,7 @@ footer{
         display: flex;
         justify-content: start;
     margin-top: 40px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
      }
      .middle-page{
         width: 200px;
@@ -359,14 +376,14 @@ footer{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 60px;
+   
 }
 .top-mother1{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 60px;
+  
 }
 .for-grid {
     display: grid;
@@ -396,7 +413,7 @@ footer{
 }
 .section-item{
     margin: auto;
-    width: 60%;
+    width: 90%;
    
     padding: 10px;
    
@@ -406,7 +423,7 @@ footer{
     display: flex;
     flex-direction: raw;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     
     
    
@@ -477,6 +494,50 @@ footer{
 .hr-line{
    color: gray;
 }
+/* this is for bonus mark section */
+/* this is for bonus mark section */
+/* this is for bonus mark section */
+.moddle-full4{
+    width: 100%;
+
+    }
+    .bonus-manu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .bonus-manu a{
+        border: 1px double gray;
+        padding: 10px 35px;
+        margin: 05px 0 03px 0;
+        text-decoration: none;
+        border-radius: 10px;
+        text-align: center;
+    }
+.grid-line{
+    display: grid;
+   grid-template-columns: repeat(1, 1fr );
+   grid-auto-columns: 1fr;
+}
+.section-item{
+ width: 90%;
+ margin: auto;
+}
+#match-1{
+    text-align: justify;
+    border: 2px dotted;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+}
+.match-grid2 img{
+    width: 100%;
+    
+    
+}
+
   }
   /* this is for tablet media scren */
   /* this is for tablet media scren */
@@ -492,7 +553,7 @@ footer{
         display: flex;
         justify-content: center;
         margin-top: 40px;
-        margin-bottom: 50px;
+        margin-bottom: 5px;
     }
     .top-page{
         background-color: rgb(56, 17, 17);
@@ -578,8 +639,8 @@ footer{
       height: 80px;
       gap: 100px;
       background-color: rgb(255, 255, 255);
-      margin-top: -80px;
-      margin-bottom: -20px;
+      /* margin-top: -80px;
+      margin-bottom: -20px; */
      }
 
 
@@ -630,8 +691,45 @@ footer{
     padding: 10px 30px;
     border-radius: 8px;
 }
+.grid-line{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-columns: 700px ;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-self: end;
+    margin: -80px;
+    margin-top: 50px;
+}
+ /* this tablet version for bonus mark */
+ /* this tablet version for bonus mark */
+ /* this tablet version for bonus mark */
+.grid-line{
+    display: grid;
+   grid-template-columns: repeat(1, 1fr );
+   grid-auto-columns: 1fr;
+   margin: 25px;
+}
+.section-item{
+ width: 80%;
+margin: 50px;
+ justify-content: center;
+ align-items: center;
+}
+.match-grid3{
+   margin-top: 40px;
+  
+   background-color: rgb(255, 255, 255);
+
 }
 
+}
+
+ /* this is footer section  */
+ /* this is footer section  */
+ /* this is footer section  */
+ /* this is footer section  */
 footer{
     display: flex;
     /* flex-direction: column; */
@@ -652,9 +750,11 @@ footer{
     gap: 25px;
     padding: 25px 35px;
     font-size: 35px;
+   
 }
 .social a{
     padding: 10px 25px;
+    color: rgb(255, 255, 255);
 }
 
 .goal{
